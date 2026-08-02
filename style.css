@@ -20,6 +20,16 @@ h3{
     text-align: center;
 }
 
+h4 {
+    font-size: 20px;
+    text-align: left;
+}
+
+h5{
+    color:black;
+    text-decoration: underline;
+}
+
 a.one:link {
   color: darkolivegreen;
   background-color: transparent;
@@ -27,7 +37,7 @@ a.one:link {
 }
 
 a.one:visited {
-  color: rgb(255, 192, 254);
+  color: darkolivegreen;
   background-color: transparent;
   text-decoration: none;
 }
@@ -53,7 +63,7 @@ a.one:active {
 }
 
 .nav a {
-    color: darkolivegreen);
+    color: darkolivegreen;
     text-align: right;
     padding: 14px 16px;
     text-decoration: none;
@@ -68,6 +78,13 @@ a.one:active {
     color:rgb(255, 192, 254)
 }
 
-.nav a:visited {
-    color:darkolivegreen;
+.column {
+    float: left;
+    width: 33.3%;
+}
+
+.body:after {
+    content: "";
+    display: table;
+    clear: both;
 }
