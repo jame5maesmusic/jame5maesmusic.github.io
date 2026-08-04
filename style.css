@@ -83,8 +83,15 @@ a.one:active {
     width: 33.3%;
 }
 
-.body:after {
-    content: "";
-    display: table;
-    clear: both;
+.footnote {
+    position:static; 
+}
+
+footer {
+    background-color:#a2a3a5;
+    font-family: Georgia, serif;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: relative;
 }
