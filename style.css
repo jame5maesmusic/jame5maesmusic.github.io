@@ -150,7 +150,7 @@ a.comp:active {
 }
 
 .aboutme a:hover {
-    color:darkgreen;
+    color:rgb(171, 0, 0);
 }
 
 .aboutme a:active {
@@ -211,5 +211,4 @@ footer {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    margin: 0
 }
