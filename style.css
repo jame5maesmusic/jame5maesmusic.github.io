@@ -28,6 +28,11 @@ h4 {
 h5{
     color:black;
     text-decoration: underline;
+    width: 90%;
+}
+
+audio {
+    width: 90%;
 }
 
 a.one:link {
@@ -54,6 +59,30 @@ a.one:active {
   text-decoration: underline;
 }
 
+a.comp:link {
+  color: darkolivegreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.comp:visited {
+  color: darkolivegreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.comp:hover {
+  color: rgb(171, 0, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.comp:active {
+  color: rgb(128, 0, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .nav {
     background-color: rgb(164, 164, 164);
 }
@@ -67,7 +96,7 @@ a.one:active {
     text-align: right;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 19px;
 }
 
 .nav a:hover {
@@ -78,20 +107,109 @@ a.one:active {
     color:rgb(255, 192, 254)
 }
 
+.spacercolumn {
+    float: left;
+    width: 33.3%;
+}
+
 .column {
     float: left;
     width: 33.3%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .column {
+        width: 50%;
+    }
+    .spacercolumn {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .column {
+        width: 100%;
+    }
+    .spacercolumn {
+        width: 100%;
+        font-size: 1px;
+    }
 }
 
 .footnote {
     position:static; 
 }
 
+.aboutme {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.aboutme a {
+    color: darkolivegreen;
+}
+
+.aboutme a:hover {
+    color:darkgreen;
+}
+
+.aboutme a:active {
+    color:rgb(255, 192, 254)
+}
+
+.form div {
+    padding: 10px;
+    text-align: left;
+}
+
+.formtop {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 30%;
+    column-gap: 10px;
+    padding: 10px;
+    justify-content: left;
+    place-content: end space-between;
+}
+
+.formbotm {
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 10px;
+    padding: 10px;
+    justify-content: left;
+    place-content: end space-between;
+}
+
+.fname {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.lname {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.email {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.message {
+    grid-row: 2 / 3;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 footer {
     background-color:#a2a3a5;
     font-family: Georgia, serif;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: relative;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0
 }
