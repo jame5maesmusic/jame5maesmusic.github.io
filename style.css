@@ -117,12 +117,22 @@ a.comp:active {
     width: 33.3%;
 }
 
+.comptext {
+    padding-top: 780px;
+}
+
 @media only screen and (max-width: 1200px) {
     .column {
         width: 50%;
     }
     .spacercolumn {
         width: 50%;
+    }
+    .lastaudio {
+        width: 190%;
+    }
+    .comptext {
+        padding-top: 1200px;
     }
 }
 
@@ -133,6 +143,12 @@ a.comp:active {
     .spacercolumn {
         width: 100%;
         font-size: 1px;
+    }
+    .lastaudio {
+        width: 90%;
+    }
+    .comptext {
+        padding-top: 2250px;
     }
 }
 
