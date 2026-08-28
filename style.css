@@ -159,6 +159,8 @@ a.comp:active {
 .aboutme {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: large;
+    display: flex;
+    flex-direction: column;
 }
 
 .aboutme a {
@@ -227,4 +229,11 @@ footer {
     bottom: 0px;
     left: 0px;
     right: 0px;
+}
+
+@media (min-height: 700px) {
+    .smallfooter {
+        position:absolute;
+        bottom: 0px;
+    }
 }
