@@ -231,7 +231,7 @@ footer {
     right: 0px;
 }
 
-@media (min-height: 700px) {
+@media (min-height: 750px) {
     .smallfooter {
         position:absolute;
         bottom: 0px;
